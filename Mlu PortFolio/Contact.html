@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <body id="demo3">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            
+            <a href="myProject.html">Home page</a>
+            <a href="AboutMe.html">AboutMe</a>
+            <a href="Contact.html">Contact</a>
+            </div>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+            <script>
+             function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+          }
+          
+            function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+    <h1 id="Contact">Contact Me</h1>
+    <div class="alert">Your message has been sent</div>
+    <form action="mailto:08.olonse@gmail.com" method="post" enctype="text/plain">
+        <label for="fname">First name: </label><input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name: </label><input type="text" id="lname" name="lname"><br><br>
+        <label for="gmail">Email address: </label><input type="text" id="gmail" name="gmail"><br><br>
+        
+        <label for="message">Message: </label><input type="text" id="message" name="message"><br><br>
+        <div class="g-recaptcha" data-sitekey="6LcxX9cUAAAAADM3JjXaWq2mzrPZ-wTuoveNbN0u"></div>
+        <input type="submit" value="Send Message" class="contact-btn">
+        
+      </form>
+      <!--js-->
+    
+
+      
+     <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+     <script src="Contact form.js"></script>
+      
+
+    <div class="footer">
+       <a href="https://www.facebook.com/"><img src="icontexto-inside-facebook.PNG" alt="facebook" width="40px" height="30px" ></a><br>
+        <a href="https://www.instagram.com/?hl=en/"><img src="download.JFIF" alt="instagram" width="40px" height="30px"><a><br>
+        <a href="https://mail.google.com/mail/u/0/#inbox"><img src="Gmail_Icon.PNG" alt="gmail" width="40px" height="30px" ></a><br>
+
+        <p class="pa">Copywriter 2020 Mlu Portfolio.</p></div>
+       
+
+
+   
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
